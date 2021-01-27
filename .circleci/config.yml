@@ -68,6 +68,7 @@ workflows:
             branches:
               only:
                 - dev
+                - dev-1_5
 
       # Production builds are exectuted only on tagged commits to the
       # master branch.
